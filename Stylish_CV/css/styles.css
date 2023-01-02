@@ -1,0 +1,226 @@
+body{
+  /*background-color:#FCF5F8;/*#fcf5f57a;*/
+  margin:0;
+  text-align: center;
+  font-family:'Merriweather', serif;
+  font-size: 100%;
+}
+
+.top-container{
+  background-color:#FCF5F8;
+  position:relative;
+  padding-top: 100px;
+  margin-bottom: 0;
+  /*
+  ; /*#f062924f;
+  to adjust from its normal position.
+  The other objects or elements will not fill the gap.
+  we have to take position here otherwise
+   it moves according to our body of the page
+   and we want to move this by our top container*/
+  /* It helps to push down  all elements in the topcontainer*/
+  /* height:200px;
+  width: 200px;
+  padding: 20px; */
+}
+.middle-container{
+
+  /*background-color:#fcf5f57a/*#f062925f;
+  height:200px;
+  width: 200px;
+  padding: 20px; */
+  /* .Computer_Image{
+    transform: rotate(124.766deg); */
+  }
+
+.bottom-container{
+  background-color:#e6dcda99 ;
+  padding: 50px 0 20px;
+  margin-top:60px;
+}
+  /* background-color:#f062926f #DBA39A;#dba39aad;
+  height:200px;
+  width: 200px;
+  padding: 20px; */
+}
+a{
+  color:#d2336957;
+}
+h1{
+  color: purple;
+  font-family: 'Sacramento', cursive;
+  font-size:5rem;
+  line-height: 4px;
+  margin: 50 auto 0 auto;
+  }
+    /* top:    10px
+    /* right:  3px margin  */
+    /* bottom: 30px margin */
+    /* left: */
+    /* 100%=16px 90px =90px/16=562.5% =5.62em= 1em*/
+    /*rem i.e root em means igonre the parent setting font size here parent is body
+    It is most realiable to use*/
+h2{
+  color: purple;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight:bold;
+  font-style: normal;
+  padding-bottom:10px;  /* 50px 0 20px; */
+
+}
+h3{
+  color:#d23369;
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.3rem;
+  font-style: normal;
+}
+p{
+  line-height: 2;
+  font-style:normal;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  border-color: #f06292;
+  opacity:50%;
+}
+.btn {
+  background: #e394bf;
+  background-image: -webkit-linear-gradient(top, #e394bf, #b82c69);
+  background-image: -moz-linear-gradient(top, #e394bf, #b82c69);
+  background-image: -ms-linear-gradient(top, #e394bf, #b82c69);
+  background-image: -o-linear-gradient(top, #e394bf, #b82c69);
+  background-image: linear-gradient(to bottom, #e394bf, #b82c69);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #e8dae7;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #de3e79;
+  background-image: -webkit-linear-gradient(top, #de3e79, #7d225d);
+  background-image: -moz-linear-gradient(top, #de3e79, #7d225d);
+  background-image: -ms-linear-gradient(top, #de3e79, #7d225d);
+  background-image: -o-linear-gradient(top, #de3e79, #7d225d);
+  background-image: linear-gradient(to bottom, #de3e79, #7d225d);
+  text-decoration: none;
+}
+.intro{
+  width:45%;
+  margin: auto;
+}
+.contact-message{
+  width:43%;
+  margin:40px auto 60px auto;
+}
+.footer-link{
+  color:#d2336957;
+  font-family: 'Montserrat', sans-serif;
+  font-style:normal;
+  margin:10px 20px 10px 20px;
+  text-decoration: none; /* for remove underline of the link*/
+}
+.footer-link:hover{
+  color: #d23369  /* #d233691f; */
+}
+
+/* .profile{
+width:50%;
+margin: 100px auto 50px auto;
+} */
+
+.skill-row{
+  width:50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  padding:0px;
+  /* white-space:normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word; */
+}
+/* .hello{
+  clear:left;
+}
+.objective{
+  clear:left; s /*It wrap text below to the image} s*/ */
+
+
+.creative_Image{
+  width: 175px;
+  height: 175px;
+  border-radius:50%;
+}
+.Simantini_Image{
+  width: 200px;
+  height: 200px;
+  border-radius:50%
+}
+.Computer_Image{
+  width: 25%;
+/*border-radius:50%;*/
+  float:left; /*image wrap around the text*/
+  margin-right: 30px;
+}
+.Chillies_Image{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+/* overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+ */
+
+/*border-radius:50%;*/
+
+
+.top-cloud{
+  position:absolute;
+   /*An element will cause to adjust its position
+  with respect to its parent. If no parent is present,
+  then it uses the document body as parent.*/
+  right:300px;
+  top:40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:250px;
+  bottom:300px;
+
+}
+.pro{
+  text-decoration:underline;
+}
+/* hr{
+/* background-color:#b3b292; */
+/* border-style:none;
+border-top-style:dotted;
+border-color: Gray;
+border-width:5px;
+width:5%;
+opacity: 0.5; */
+/* <!-- height:0px width:100% --> */
+/* <!-- 30% of entire width of the page.It can manage acoording to our laptop/Pc/cell phone */
+/* }
+h2{
+  color: #D23369;
+}
+h3{
+  color:#F06292;
+} */
+/* img {
+  border-radius: 50%;
+  opacity: 0.5;
+  background-color:#FCF5F8;
+} */
+/* All properties are in alphabetical order is professional way*/
